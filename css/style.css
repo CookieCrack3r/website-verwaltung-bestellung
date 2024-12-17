@@ -1,0 +1,238 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+header
+{
+	background-color: #000033;
+	color: white;
+}
+main
+{
+	background-color: #0066dd;
+	color: white;
+}
+footer
+{
+	background-color: #0000cc;
+	color: white;
+}
+
+header, main, footer
+{
+	padding: 30px;
+}
+header a,
+main a
+{
+	display: ;
+	color: white;
+	background-color: #000099;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+}
+header a:hover,
+main a:hover
+{
+	color: white;
+	background-color: #3333ff;
+}
+
+.flexibel
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;	
+	justify-content: space-between;
+}
+
+.produktvorschau
+{
+	display: block;
+	background-color: #000099;
+	padding: 10px;
+	margin: 10px;	
+	width: 300px;
+	height: 320px;
+	text-align: center;
+}
+
+.produktvorschau img
+{
+	height: 150px;
+}
+
+.produktvorschau
+{
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.produktvorschau:hover
+{
+	color: white;	
+	background-color: #9999ff;
+}
+
+.produktvorschau a
+{
+	display: block;
+	color: #000099;
+	background-color: #3333ff;
+	padding: 10px;
+	text-decoration: none;
+}
+.produktvorschau a:hover
+{
+	color: white;	
+	background-color: #6666ff;
+}
+
+.produktdetail
+{
+	background-color: #000099;
+	padding: 20px;
+	border-radius: 10px;	
+}
+
+
+
+th
+{
+	padding: 10px;
+	background-color: #0000ff;
+	color: white;
+}
+td
+{
+	padding: 5px;
+	background-color: #6666ff;
+	color: white;
+}
+input,select,textarea
+{
+	padding: 10px;
+	background-color: #aaccff;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0px;
+	margin: 10px;
+}
+input:hover,select:hover,textarea:hover
+{
+	background-color: #ffcccc;
+}
+input[type="submit"]
+{
+	background-color: #0000cc;
+	color: white;
+	padding: 10px;
+}
+input[type="submit"]:hover
+{
+	background-color: red;
+	color: white;
+}
+
+input[type="submit"].button_aktiv
+{
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
+input[type="submit"].button_inaktiv
+{
+	background-color: orange;
+	color: darkblue;
+	padding: 10px;
+}
+input[type="submit"].button_aktiv:hover,
+input[type="submit"].button_inaktiv:hover
+{
+	background-color: red;
+}
+.gruppe
+{
+	background-color: #000099;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+}
+.gruppe:hover
+{
+	background-color: #6699ff;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+}
+.bildblock
+{
+	background-color: #cccccc;
+}
+.mitteilung
+{
+	background-color: cyan;
+	font-weight: bold;
+	color: darkblue;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.bestellung
+{
+	display: block;
+	color: #white;
+	background-color: #3333ff;
+	padding: 10px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 10px;
+}
+
+
+
+
+
+.status_erledigt
+{
+	background-color: #009900;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;
+}
+.status_erledigt:hover
+{
+	background-color: #00aa00 !important;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;	
+}
+
+.status_offen
+{
+	background-color: #ffff00;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;	
+}
+.status_offen:hover
+{
+	background-color: #ff0000 !important;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;	
+}
+
+form
+{
+	border: 1px dashed white;
+	padding: 5px;
+	border-radius: 10px;
+}
